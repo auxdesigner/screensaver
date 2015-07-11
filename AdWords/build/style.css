@@ -1,0 +1,209 @@
+* {
+  color:#fff;
+}
+html {
+  font-size: 80%;
+}
+body {
+  background: #000; overflow: hidden; height: 100%; display: -webkit-flex; -webkit-justify-content: center;
+}
+img {
+  -webkit-flex-direction:row; display: inline; 
+}
+.row {
+    display: -webkit-flex;  -webkit-flex-direction: column; -webkit-flex: 1; text-align: center; -webkit-justify-content: center; -webkit-align-items: center;
+}
+.zmdi {
+   display: -webkit-flex; -webkit-flex-direction:row;  -webkit-flex:1; text-align: center; opacity: 0.05; -webkit-justify-content: center; -webkit-align-items: center; 
+}
+@media (min-width: 700px) {
+  .zmdi {
+    /*color:red;*/
+    font-size: 2rem;
+  }
+}
+@media (max-width: 699px) {
+  .zmdi {
+    /*color:blue;*/
+    font-size: 0.4rem;
+  }
+  img {
+    width: 60px;
+  }
+}
+
+
+.placeholder {
+  color: #000;
+}
+i {
+  -webkit-animation: fading 8s infinite; }
+
+@-webkit-keyframes fading {
+  0% {
+    opacity: 0.05; }
+
+  50% {
+    opacity: 0.4; }
+
+  100% {
+    opacity: 0.05; } }
+
+.zmdi-lamp {
+  -webkit-transform: scale(1, -1)
+}
+
+#i1, #i90 {
+  -webkit-animation-delay: 1s;
+}
+#i2, #i89 {
+  -webkit-animation-delay: 2s;
+}
+#i3, #i88 {
+  -webkit-animation-delay: 3s;
+}
+#i4, #i87 {
+  -webkit-animation-delay: 4s;
+}
+#i5, #i86 {
+  -webkit-animation-delay: 5s;
+}
+#i6, #i85 {
+  -webkit-animation-delay: 6s;
+}
+#i7, #i84 {
+  -webkit-animation-delay: 7s;
+}
+#i8, #i83 {
+  -webkit-animation-delay: 8s;
+}
+#i9, #i82 {
+  -webkit-animation-delay: 9s;
+}
+#i10, #i81 {
+  -webkit-animation-delay: 10s;
+}
+
+
+
+
+#i20, #i71 {
+  -webkit-animation-delay: 0.5s;
+}
+#i19, #i72 {
+  -webkit-animation-delay: 1.5s;
+}
+#i18, #i73 {
+  -webkit-animation-delay: 2.5s;
+}
+#i17, #i74 {
+  -webkit-animation-delay: 3.5s;
+}
+#i16, #i75 {
+  -webkit-animation-delay: 4.5s;
+}
+#i15, #i76 {
+  -webkit-animation-delay: 5.5s;
+}
+#i14, #i77 {
+  -webkit-animation-delay: 6.5s;
+}
+#i13, #i78 {
+  -webkit-animation-delay: 7.5s;
+}
+#i12, #i79 {
+  -webkit-animation-delay: 8.5s;
+}
+#i11, #i80 {
+  -webkit-animation-delay: 9.5s;
+}
+
+
+
+
+#i21, #i70 {
+  -webkit-animation-delay: 0.5s;
+}
+#i22, #i69 {
+  -webkit-animation-delay: 1.5s;
+}
+#i23, #i68 {
+  -webkit-animation-delay: 2.5s;
+}
+#i24, #i67 {
+  -webkit-animation-delay: 3.5s;
+}
+#i25, #i66 {
+  -webkit-animation-delay: 4.5s;
+}
+#i26, #i65 {
+  -webkit-animation-delay: 5.5s;
+}
+#i27, #i64 {
+  -webkit-animation-delay: 6.5s;
+}
+#i28, #i63 {
+  -webkit-animation-delay: 7.5s;
+}
+#i29, #i62 {
+  -webkit-animation-delay: 8.5s;
+}
+#i30, #i61 {
+  -webkit-animation-delay: 9.5s;
+}
+
+
+
+#i40, #i51 {
+  -webkit-animation-delay: 1s;
+}
+#i39, #i52 {
+  -webkit-animation-delay: 2s;
+}
+#i38, #i53 {
+  -webkit-animation-delay: 3s;
+}
+#i37, #i54 {
+  -webkit-animation-delay: 4s;
+}
+#i36, #i55 {
+  -webkit-animation-delay: 5s;
+}
+#i35, #i56 {
+  -webkit-animation-delay: 6s;
+}
+#i34, #i57 {
+  -webkit-animation-delay: 7s;
+}
+#i33, #i58 {
+  -webkit-animation-delay: 8s;
+}
+#i32, #i59 {
+  -webkit-animation-delay: 9s;
+}
+#i31, #i60 {
+  -webkit-animation-delay: 10s;
+}
+
+
+
+#i41, #i50 {
+  -webkit-animation-delay: 0.5s;
+}
+#i42, #i49 {
+  -webkit-animation-delay: 1.5s;
+}
+#i43, #i48 {
+  -webkit-animation-delay: 2.5s;
+}
+#i45 {
+  -webkit-animation-delay: 3s;
+}
+#i46 {
+  -webkit-animation-delay: 2s;
+}
+#i47 {
+  -webkit-animation-delay: 1s;
+}
+
+
